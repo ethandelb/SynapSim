@@ -7,3 +7,6 @@ class Synapse:
     def nameToId(self,startNeuron, endNeuron):
         self.from_id = startNeuron
         self.to_id = endNeuron
+    
+    def fireImpulse(self):
+        pass

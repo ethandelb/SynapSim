@@ -1,0 +1,2 @@
+## Rapporto per me
+Per ora il programma funziona così, in index è presente un form per creare dei neuroni e delle synapsi. il Form chiama la funzione PHP SendData.php che manda i dati in forma JSON a un api fatta in Flask. L'API utilizza i dati ricevuti e crea degli oggetti Neurons e Synapse, i neuroni hanno nome, id e threshold che è "l'energia" necessaria per far mandare il segnale (apporssimazione per prove), mentre le synapsi collegano gli id di due neuroni in base al nome.
